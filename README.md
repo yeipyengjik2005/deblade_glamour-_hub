@@ -1,2 +1,2 @@
-# deblade_glamour-_hub
-base on beauty
+# deblade_glamour_hub
+enhancing beauty, inspiring confidence.
