@@ -1,0 +1,153 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing:border-box;
+   font-family: Arial, Helvetica, sans-serif;
+    
+}
+body {
+    background: bisque;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    
+}
+header img {
+    width: 150px;
+}
+ nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li  {
+    margin-left: 25px;
+}
+    nav ul li a {
+        text-decoration: none;
+        color: #ffd700;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+ .hero {
+text-align: center;
+padding: 100px 20px;
+background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,rgba(0,0,0,.7)))
+url(images/background.jpg);
+background-size: cover;
+background-position: center;
+  
+}
+.hero h1{
+    font-size: 50px;
+    color: burlywood
+}
+.hero{
+    font-size: 22px;
+    margin: 20px 0;
+}
+button{
+    background: #ffd700;
+    color: black;
+    border: none;
+    padding: 15px 35px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+ 
+}
+button:hover {
+ background: white;
+}
+section {
+   padding: 60px 80px;
+}
+section h2 {
+   color: #ffd700; 
+   margin-bottom: 20px;
+   text-align: center;
+}
+.services ul {
+    list-style: none;
+    text-align: center;
+}
+.services li {
+background: burlywood;
+margin: 15px auto;
+width: 300px;
+padding: 15px;
+border-radius: 8px;
+}
+.gallary {
+    width: 250px;
+    margin: 15px;
+    border-radius: 10px;
+    border: 3px solid #ffd700;
+}
+.contact {
+    text-align: center;
+}
+.contact p {
+    margin : 10px;
+    font-size: 18px;
+}
+footer {
+    background: #000;
+    text-align: center;
+    padding: 20px;
+    color: #ffd700;
+}
+@media (max-width:768px){  
+header {
+       flex-direction: column; 
+       align-self: center;
+    }
+       nav{
+        width: 100%;
+       }
+       nav ul {
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+        margin-top: 15px;
+       }
+nav ul li {
+   width: 100%;
+    text-align: center;
+}
+nav ul li a {
+    display: block;
+    padding: 15px;
+    border-bottom: 1px solid #333;
+}
+}
+@media screen and (max-width: 768px){
+    header { 
+        padding: 10px;
+    }
+    .logo img {
+        width: 120px;
+    }
+    nav ul li a {
+        font-size: 16px;
+        padding: 12px;
+    }
+}
+.hero h1 {
+    font-size: 35px;
+}
+section {
+    padding: 30px;
+}
+.gallary {
+    width: 100%;
+}
+.services {
+    width: 100%;
+}
